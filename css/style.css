@@ -25,3 +25,26 @@ img {
     margin-top:20px;
     width: 50%;
   }
+
+#home-image{
+    display: block;
+    margin-top:70px;
+}
+
+#img1, #img2, #img6, #img7, #img8{
+    width: 48%;
+    height:auto;
+    position: absolute;
+    top:145px;
+    left:27%;
+    display:none;
+}
+
+#img2{
+    width: 48%;
+    height:auto;
+    position: absolute;
+    top:145px;
+    left:27%;
+    display:none;
+}
