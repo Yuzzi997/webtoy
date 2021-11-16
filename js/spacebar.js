@@ -18,7 +18,6 @@ window.addEventListener("load", function() {
 
 function onKeyDown (evt) {
     //key code for space bar 
-    if(evt.keycode === 32) {
         if (started === 0){
             number.textContent = count;
             
