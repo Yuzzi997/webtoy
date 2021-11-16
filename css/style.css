@@ -26,6 +26,10 @@ img {
     width: 50%;
   }
 
+.img-group {
+	position: relative; 
+}
+
 #home-image{
     display: block;
     margin-top:70px;
@@ -38,4 +42,17 @@ img {
     top:145px;
     left:27%;
     display:none;
+}
+
+#number{
+    font-family: font-family: 'Averia Sans Libre', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    bottom: 0; 
+    color: #FFFDED; 
+    font-size: 60px;
+    margin-left: 75%;
+    margin-right: 10%;
+    margin-top: auto;
+    margin-bottom: 38vw;
 }
