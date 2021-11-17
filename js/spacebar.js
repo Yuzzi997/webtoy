@@ -69,6 +69,11 @@ window.addEventListener("load", function() {
             element.src="images/2.png";
             if (count = 3)
             element.src="images/6.png";
+            if (count = 4)
+            element.src="images/7.png";
+            if (count = 5)
+            element.src="images/8.png";
+
 
         }
     }
