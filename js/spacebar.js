@@ -1,4 +1,5 @@
 
+
 window.addEventListener("load", function() {
     //event
     //--- "keydown" event
@@ -37,11 +38,12 @@ window.addEventListener("load", function() {
     }
 
     //functions
-    function onKeyDown(evt) {
+     function onKeyDown(evt) {
         if(evt.keyCode === 32) {       	        	
             if (started == 0){
             number.textContent = count;    
             }
+        }
             if (started == 1)
             countNumber();
             else 
@@ -51,29 +53,26 @@ window.addEventListener("load", function() {
                 title.style.display="none";
             	element.style.display="inline"
             }
+        
             
-            if (count = 1 )
-            element.src="images/1.png";
-            if (count = 2 )
+            if (count < 5)
+            element.src="images/image1.png";
+            if (count >= 5 && count < 10)
             element.src="images/2.png";
-            if (count = 3)
+            if (count >= 10)
             element.src="images/6.png";
+
         }
-    }
+     
 
     function onKeyUp(evt) {
         if(evt.keyCode === 32) {
-            if (count = 1 )
-            element.src="images/1.png";
-            if (count = 2 )
-            element.src="images/2.png";
-            if (count = 3)
-            element.src="images/6.png";
-            if (count = 4)
+            if (count < 5)
             element.src="images/7.png";
-            if (count = 5)
+            if (count >= 5 && count < 10)
+            element.src="images/image1.png";
+            if (count >= 10)
             element.src="images/8.png";
-
 
         }
     }
@@ -81,8 +80,10 @@ window.addEventListener("load", function() {
     function countNumber() {
         count = count + 1;
         number.textContent = count;
-    }
+    
+}
 
-   
 
+
+    
 });
